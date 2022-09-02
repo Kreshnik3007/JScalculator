@@ -1,0 +1,29 @@
+.container{
+    margin: 0 auto;
+    width: 240px;
+    background-color:black;
+    border : 6px gray solid;
+    border-radius: 10px;
+}
+
+
+.buttonat button{
+    padding:8px 20px  ;
+    justify-content: space-between;
+    width: calc( 25% - 3px );
+    border-radius: 10px;
+    background-color: orange;
+}
+
+#result{
+    width:calc( 100% - 14px );
+    margin: 15px 0 ;
+    padding: 5px;
+    border: 1px black solid;
+    background-color: black;
+    color:white;
+    
+}
+#sum1 {
+    background-color: white;
+}
