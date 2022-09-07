@@ -1,10 +1,8 @@
 
 let input = document.getElementById("result");
 
-let number = document.getElementsByClassName("button");
-//console.log(number.length)
+let number = document.getElementsByClassName("button")
 for (let i = 0; i < number.length; i++) {
-    //console.log(i)
     number[i].addEventListener("click", calculate);
 }
 
